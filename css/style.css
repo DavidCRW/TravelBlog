@@ -264,6 +264,27 @@ header .header-title .title{
     letter-spacing: 0.1px;
     line-height: 1.5;
 }
+.section3 .discord-button{
+    background-color: #5865f2;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.section3 .discord-button:hover{
+    background-color: #505cdf;
+}
+.section3 .discord-button img{
+    max-width: 50px;
+}
+.section3 .discord-button i{
+    margin-right: 0.5rem;
+}
 
 /* FOOTER */
 footer{
