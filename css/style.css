@@ -308,43 +308,6 @@ footer h4{
     letter-spacing: 0.5px;
 }
 
-/* ABOUT ME PAGE */
-.section3-aboutme-page{
-    min-height: 100vh;
-    margin: 0;
-    background-color: #6571f7;
-    color: white;
-}
-.section3-aboutme-page .content{
-    align-items: center;
-    margin-top: 4rem;
-}
-.aboutme-mobile-nav .toggle{
-    background-color: #505cdf;
-}
-.aboutme-mobile-nav .dropdown{
-    background-color: #505cdf;
-}
-.aboutme-desktop-nav{
-    background-color: #505cdf;
-}
-.aboutme-desktop-nav a:hover{
-    background-color: #616deb;
-}
-
-/* BLOG PAGE */
-.blog-page{
-    min-height: 100vh;
-}
-.blog-page .content h2{
-    margin-top: 5rem;
-}
-.blog-page .overlay{
-    padding: 0;
-    min-height: 100vh;
-    align-items: center;
-}
-
 @media(min-width: 992px){
     .mobile-nav{
         display: none;
