@@ -268,6 +268,7 @@ header .header-title .title{
 .section3 .links{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .section3 .button{
     background-color: #5865f2;
@@ -359,5 +360,10 @@ footer h4{
     }
     .blog-page .content h2{
         margin-top: 0rem;
+    }
+    .section3 .links{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
